@@ -1,0 +1,26 @@
+[
+  {
+    "registrationID": 21,
+    "bvcID": "54321",
+    "name": "Braydon Lafleur",
+    "address": "1234 lane st ne",
+    "status": "staff",
+    "payment": 50
+  },
+  {
+    "registrationID": 51,
+    "bvcID": "1234",
+    "name": "johnathan",
+    "address": "5678 john st se",
+    "status": "volunteer",
+    "payment": 0
+  },
+  {
+    "registrationID": 5,
+    "bvcID": "454545",
+    "name": "Shogo H",
+    "address": "4563 place st NE",
+    "status": "student",
+    "payment": 10
+  }
+]

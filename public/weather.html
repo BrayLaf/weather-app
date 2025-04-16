@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="weatherApi.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="Title">Current Weather</h1>
+    </header>
+    <div class="mobilemenu">
+        <ul id="mobMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="view-reg.html">View Registration</a></li>
+        </ul>  
+      </div>
+      <nav class="burger">
+        <div class="ham">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    <nav class="navigation">
+        <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="view-reg.html">View Registration</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <main class="card">
+        <h2 class="secondaryTitle weather"></h2>
+    </main>
+        <aside class="card">
+            <img class="weatherImg">
+            <p class="fillerText"></p>
+        </aside>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Braydon Lafleur. All rights reserved.</p>
+        <p class="timestamp"></p>
+    </footer>
+</body>
+</html>

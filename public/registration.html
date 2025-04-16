@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="Title">Registration</h1>
+    </header>
+    <div class="mobilemenu">
+        <ul id="mobMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="view-reg.html">View Registration</a></li>
+        </ul>  
+      </div>
+      <nav class="burger">
+        <div class="ham">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    <nav class="navigation">
+        <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="view-reg.html">View Registration</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <!-- <main class="card">
+        <h2 class="secondaryTitle card"></h2>
+    </main> -->
+        <aside class="register card">
+            <p class="fillerText">Register for the new BVC sports event</p>
+            <form class="regForm" id="registrationForm" novalidate>
+                <label id="bvcIDLabel" for="idInput">BVC ID</label>
+                <input id="idInput" name="bvcID" type="text" required pattern="\d+">
+                <div class="error" id="bvcIDError"></div>
+                
+                <label id="FnameLabel" for="FnameInput">Full Name</label>
+                <input id="FnameInput" name="Fname" type="text" required pattern="[a-zA-Z\s]+">
+                <div class="error" id="fnameError"></div>
+                
+                <label id="addressLabel" for="addressInput">Address</label>
+                <input id="addressInput" name="address" type="text" required>
+                <div class="error" id="addressError"></div>
+                
+                <label for="status">Select your status</label>
+                <select id="status" name="status" required>
+                    <option value="">-- Please choose an option --</option>
+                    <option value="student">Student</option>
+                    <option value="staff">Staff</option>
+                    <option value="volunteer">Volunteer</option>
+                </select>
+                <div class="error" id="statusError"></div>
+                
+                <input type="submit" id="formSubmit" value="Submit">
+            </form>
+        </aside>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Braydon Lafleur. All rights reserved.</p>
+        <p class="timestamp"></p>
+    </footer>
+</body>
+</html>
