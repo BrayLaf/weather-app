@@ -1,5 +1,5 @@
 $(function(){
-    fetch('http://api.weatherapi.com/v1/current.json?key=9c057068be3f4c99bea04437251204&q=Calgary&aqi=no')
+    fetch('http://api.weatherapi.com/v1/current.json?key=[api key]=Calgary&aqi=no')
     .then(response =>{
         if(response.status == 200)
             return response.json();
